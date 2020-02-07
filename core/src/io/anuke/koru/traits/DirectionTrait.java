@@ -1,7 +1,7 @@
 package io.anuke.koru.traits;
 
 import io.anuke.koru.network.syncing.SyncData.Synced;
-import io.anuke.ucore.ecs.Trait;
+import io.anuke.koru.ucore.ecs.Trait;
 
 @Synced
 public class DirectionTrait extends Trait{

@@ -5,11 +5,11 @@ import com.badlogic.gdx.utils.Align;
 import io.anuke.koru.Koru;
 import io.anuke.koru.traits.ChildTrait;
 import io.anuke.koru.traits.TextTrait;
-import io.anuke.ucore.core.Draw;
-import io.anuke.ucore.ecs.Prototype;
-import io.anuke.ucore.ecs.Spark;
-import io.anuke.ucore.ecs.TraitList;
-import io.anuke.ucore.ecs.extend.traits.*;
+import io.anuke.koru.ucore.core.Draw;
+import io.anuke.koru.ucore.ecs.Prototype;
+import io.anuke.koru.ucore.ecs.Spark;
+import io.anuke.koru.ucore.ecs.TraitList;
+import io.anuke.koru.ucore.ecs.extend.traits.*;
 
 public class DamageIndicator extends Prototype{
 

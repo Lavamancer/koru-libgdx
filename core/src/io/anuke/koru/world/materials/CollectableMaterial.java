@@ -2,7 +2,7 @@ package io.anuke.koru.world.materials;
 
 import io.anuke.koru.traits.InventoryTrait;
 import io.anuke.koru.world.Tile;
-import io.anuke.ucore.ecs.Spark;
+import io.anuke.koru.ucore.ecs.Spark;
 
 /**A material that is collected on interaction*/
 public abstract class CollectableMaterial extends Material{

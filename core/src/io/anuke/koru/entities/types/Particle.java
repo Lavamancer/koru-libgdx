@@ -1,9 +1,9 @@
 package io.anuke.koru.entities.types;
 
 import io.anuke.koru.traits.ParticleTrait;
-import io.anuke.ucore.ecs.Prototype;
-import io.anuke.ucore.ecs.TraitList;
-import io.anuke.ucore.ecs.extend.traits.PosTrait;
+import io.anuke.koru.ucore.ecs.Prototype;
+import io.anuke.koru.ucore.ecs.TraitList;
+import io.anuke.koru.ucore.ecs.extend.traits.PosTrait;
 
 public class Particle extends Prototype{
 

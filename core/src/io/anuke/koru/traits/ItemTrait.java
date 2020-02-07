@@ -6,12 +6,12 @@ import io.anuke.koru.items.ItemStack;
 import io.anuke.koru.network.Net;
 import io.anuke.koru.network.syncing.SyncData.Synced;
 import io.anuke.koru.systems.EntityMapper;
-import io.anuke.ucore.core.Effects;
-import io.anuke.ucore.core.Timers;
-import io.anuke.ucore.ecs.Spark;
-import io.anuke.ucore.ecs.Trait;
-import io.anuke.ucore.ecs.extend.traits.VelocityTrait;
-import io.anuke.ucore.util.Tmp;
+import io.anuke.koru.ucore.core.Effects;
+import io.anuke.koru.ucore.core.Timers;
+import io.anuke.koru.ucore.ecs.Spark;
+import io.anuke.koru.ucore.ecs.Trait;
+import io.anuke.koru.ucore.ecs.extend.traits.VelocityTrait;
+import io.anuke.koru.ucore.util.Tmp;
 
 @Synced
 public class ItemTrait extends Trait{

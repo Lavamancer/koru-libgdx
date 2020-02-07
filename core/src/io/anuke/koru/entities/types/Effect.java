@@ -4,13 +4,13 @@ import com.badlogic.gdx.graphics.Color;
 
 import io.anuke.koru.entities.Prototypes;
 import io.anuke.koru.traits.EffectTrait;
-import io.anuke.ucore.core.Effects;
-import io.anuke.ucore.ecs.Prototype;
-import io.anuke.ucore.ecs.Spark;
-import io.anuke.ucore.ecs.TraitList;
-import io.anuke.ucore.ecs.extend.traits.FacetTrait;
-import io.anuke.ucore.ecs.extend.traits.LifetimeTrait;
-import io.anuke.ucore.ecs.extend.traits.PosTrait;
+import io.anuke.koru.ucore.core.Effects;
+import io.anuke.koru.ucore.ecs.Prototype;
+import io.anuke.koru.ucore.ecs.Spark;
+import io.anuke.koru.ucore.ecs.TraitList;
+import io.anuke.koru.ucore.ecs.extend.traits.FacetTrait;
+import io.anuke.koru.ucore.ecs.extend.traits.LifetimeTrait;
+import io.anuke.koru.ucore.ecs.extend.traits.PosTrait;
 
 public class Effect extends Prototype{
 
@@ -31,11 +31,11 @@ public class Effect extends Prototype{
 		);
 	}
 	
-	public static Spark create(io.anuke.ucore.core.Effects.Effect effect, Color color, float x, float y){
+	public static Spark create(Effects.Effect effect, Color color, float x, float y){
 		return create(effect, color, x, y, 0);
 	}
 	
-	public static Spark create(io.anuke.ucore.core.Effects.Effect effect, Color color, float x, float y, float rotation){
+	public static Spark create(Effects.Effect effect, Color color, float x, float y, float rotation){
 		Spark spark = new Spark(Prototypes.effect);
 		spark.get(EffectTrait.class).id = effect.id;
 		spark.get(EffectTrait.class).color = color;

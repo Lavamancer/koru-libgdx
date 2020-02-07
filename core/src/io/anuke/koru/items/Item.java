@@ -7,7 +7,7 @@ import com.badlogic.gdx.utils.ObjectIntMap;
 
 import io.anuke.koru.input.InputHandler.ClickEvent;
 import io.anuke.koru.world.BreakType;
-import io.anuke.ucore.util.Strings;
+import io.anuke.koru.ucore.util.Strings;
 
 public class Item{
 	private static int lastid;

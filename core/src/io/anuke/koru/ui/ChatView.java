@@ -1,6 +1,6 @@
 package io.anuke.koru.ui;
 
-import static io.anuke.ucore.core.Core.skin;
+import static io.anuke.koru.ucore.core.Core.skin;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Color;
@@ -12,11 +12,11 @@ import com.badlogic.gdx.utils.Array;
 
 import io.anuke.koru.network.Net;
 import io.anuke.koru.network.packets.ChatPacket;
-import io.anuke.ucore.scene.Scene;
-import io.anuke.ucore.scene.ui.Label;
-import io.anuke.ucore.scene.ui.Label.LabelStyle;
-import io.anuke.ucore.scene.ui.TextField;
-import io.anuke.ucore.scene.ui.layout.Table;
+import io.anuke.koru.ucore.scene.Scene;
+import io.anuke.koru.ucore.scene.ui.Label;
+import io.anuke.koru.ucore.scene.ui.Label.LabelStyle;
+import io.anuke.koru.ucore.scene.ui.TextField;
+import io.anuke.koru.ucore.scene.ui.layout.Table;
 
 public class ChatView extends Table{
 	private final static int messagesShown = 10;

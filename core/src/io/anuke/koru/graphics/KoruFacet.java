@@ -2,9 +2,9 @@ package io.anuke.koru.graphics;
 
 import io.anuke.koru.world.Tile;
 import io.anuke.koru.world.materials.Material;
-import io.anuke.ucore.core.Draw;
-import io.anuke.ucore.facet.*;
-import io.anuke.ucore.function.Listenable;
+import io.anuke.koru.ucore.core.Draw;
+import io.anuke.koru.ucore.facet.*;
+import io.anuke.koru.ucore.function.Listenable;
 
 public class KoruFacet extends SpriteFacet{
 	public boolean reflect = true;

@@ -9,8 +9,8 @@ import io.anuke.koru.network.Net;
 import io.anuke.koru.world.materials.Material;
 import io.anuke.koru.world.materials.MaterialLayer;
 import io.anuke.koru.world.materials.Materials;
-import io.anuke.ucore.util.Bits;
-import io.anuke.ucore.util.Mathf;
+import io.anuke.koru.ucore.util.Bits;
+import io.anuke.koru.ucore.util.Mathf;
 
 public class Tile implements Poolable{
 	public static final int LAYER_SIZE = 10;

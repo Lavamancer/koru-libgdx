@@ -1,21 +1,20 @@
 package io.anuke.koru.systems;
 
-import static io.anuke.ucore.util.Mathf.scl;
-
-import java.util.ArrayList;
-import java.util.function.Consumer;
-
 import com.badlogic.gdx.utils.Array;
 import com.badlogic.gdx.utils.Predicate;
-
 import io.anuke.koru.Koru;
 import io.anuke.koru.modules.World;
 import io.anuke.koru.traits.ConnectionTrait;
 import io.anuke.koru.traits.SyncTrait;
-import io.anuke.ucore.ecs.Processor;
-import io.anuke.ucore.ecs.Spark;
-import io.anuke.ucore.ecs.Trait;
-import io.anuke.ucore.util.GridMap;
+import io.anuke.koru.ucore.ecs.Processor;
+import io.anuke.koru.ucore.ecs.Spark;
+import io.anuke.koru.ucore.ecs.Trait;
+import io.anuke.koru.ucore.util.GridMap;
+
+import java.util.ArrayList;
+import java.util.function.Consumer;
+
+import static io.anuke.koru.ucore.util.Mathf.scl;
 
 public class EntityMapper extends Processor{
 	public static final float cellsize = World.tilesize * World.chunksize / 2;

@@ -1,7 +1,7 @@
 package io.anuke.koru.modules;
 
 import static io.anuke.koru.Koru.*;
-import static io.anuke.ucore.core.Core.*;
+import static io.anuke.koru.ucore.core.Core.*;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Input.Buttons;
@@ -28,15 +28,15 @@ import io.anuke.koru.world.materials.Material;
 import io.anuke.koru.world.materials.MaterialLayer;
 import io.anuke.koru.world.materials.MaterialTypes.*;
 import io.anuke.koru.world.materials.Materials;
-import io.anuke.ucore.core.*;
-import io.anuke.ucore.ecs.Spark;
-import io.anuke.ucore.facet.*;
-import io.anuke.ucore.graphics.Atlas;
-import io.anuke.ucore.lights.Light;
-import io.anuke.ucore.lights.PointLight;
-import io.anuke.ucore.lights.RayHandler;
-import io.anuke.ucore.modules.RendererModule;
-import io.anuke.ucore.util.Mathf;
+import io.anuke.koru.ucore.core.*;
+import io.anuke.koru.ucore.ecs.Spark;
+import io.anuke.koru.ucore.facet.*;
+import io.anuke.koru.ucore.graphics.Atlas;
+import io.anuke.koru.ucore.lights.Light;
+import io.anuke.koru.ucore.lights.PointLight;
+import io.anuke.koru.ucore.lights.RayHandler;
+import io.anuke.koru.ucore.modules.RendererModule;
+import io.anuke.koru.ucore.util.Mathf;
 
 public class Renderer extends RendererModule{
 	//TODO why are these final?

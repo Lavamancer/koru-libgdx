@@ -8,16 +8,16 @@ import io.anuke.koru.network.Net;
 import io.anuke.koru.traits.MaterialTrait;
 import io.anuke.koru.world.materials.Material;
 import io.anuke.koru.world.materials.MaterialTypes.Tree;
-import io.anuke.ucore.core.Timers;
-import io.anuke.ucore.ecs.Prototype;
-import io.anuke.ucore.ecs.Spark;
-import io.anuke.ucore.ecs.TraitList;
-import io.anuke.ucore.ecs.extend.traits.FacetTrait;
-import io.anuke.ucore.ecs.extend.traits.LifetimeTrait;
-import io.anuke.ucore.ecs.extend.traits.PosTrait;
-import io.anuke.ucore.facet.Facet;
-import io.anuke.ucore.facet.Sorter;
-import io.anuke.ucore.facet.SpriteFacet;
+import io.anuke.koru.ucore.core.Timers;
+import io.anuke.koru.ucore.ecs.Prototype;
+import io.anuke.koru.ucore.ecs.Spark;
+import io.anuke.koru.ucore.ecs.TraitList;
+import io.anuke.koru.ucore.ecs.extend.traits.FacetTrait;
+import io.anuke.koru.ucore.ecs.extend.traits.LifetimeTrait;
+import io.anuke.koru.ucore.ecs.extend.traits.PosTrait;
+import io.anuke.koru.ucore.facet.Facet;
+import io.anuke.koru.ucore.facet.Sorter;
+import io.anuke.koru.ucore.facet.SpriteFacet;
 
 public class BlockAnimation extends Prototype{
 	//rotation speed

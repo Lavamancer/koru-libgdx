@@ -1,16 +1,16 @@
 package io.anuke.koru.ui;
 
-import static io.anuke.ucore.core.Core.skin;
+import static io.anuke.koru.ucore.core.Core.skin;
 
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.utils.Align;
 
 import io.anuke.koru.Koru;
-import io.anuke.ucore.scene.ui.Dialog;
-import io.anuke.ucore.scene.ui.ImageButton;
-import io.anuke.ucore.scene.ui.ImageButton.ImageButtonStyle;
-import io.anuke.ucore.scene.ui.Label;
-import io.anuke.ucore.scene.ui.layout.Table;
+import io.anuke.koru.ucore.scene.ui.Dialog;
+import io.anuke.koru.ucore.scene.ui.ImageButton;
+import io.anuke.koru.ucore.scene.ui.ImageButton.ImageButtonStyle;
+import io.anuke.koru.ucore.scene.ui.Label;
+import io.anuke.koru.ucore.scene.ui.layout.Table;
 
 public abstract class Menu extends Dialog{
 

@@ -2,9 +2,9 @@ package io.anuke.koru.graphics;
 
 import com.badlogic.gdx.graphics.Color;
 
-import io.anuke.ucore.core.Draw;
-import io.anuke.ucore.core.Effects.Effect;
-import io.anuke.ucore.util.Angles;
+import io.anuke.koru.ucore.core.Draw;
+import io.anuke.koru.ucore.core.Effects.Effect;
+import io.anuke.koru.ucore.util.Angles;
 
 public class Fx{
 	public static final Effect

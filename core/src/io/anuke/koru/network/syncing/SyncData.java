@@ -3,7 +3,7 @@ package io.anuke.koru.network.syncing;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 
-import io.anuke.ucore.ecs.Spark;
+import io.anuke.koru.ucore.ecs.Spark;
 
 public class SyncData{
 	public long id;

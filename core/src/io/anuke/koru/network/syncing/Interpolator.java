@@ -3,8 +3,8 @@ package io.anuke.koru.network.syncing;
 import com.badlogic.gdx.math.Interpolation;
 import com.badlogic.gdx.math.Vector2;
 
-import io.anuke.ucore.core.Timers;
-import io.anuke.ucore.ecs.Spark;
+import io.anuke.koru.ucore.core.Timers;
+import io.anuke.koru.ucore.ecs.Spark;
 
 public class Interpolator{
 	static final float correctrange = 20f;

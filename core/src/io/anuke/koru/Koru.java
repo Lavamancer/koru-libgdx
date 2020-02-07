@@ -9,13 +9,13 @@ import io.anuke.koru.modules.*;
 import io.anuke.koru.network.Net;
 import io.anuke.koru.utils.Resources;
 import io.anuke.koru.world.Tile;
-import io.anuke.ucore.core.Effects;
-import io.anuke.ucore.core.Timers;
-import io.anuke.ucore.ecs.Basis;
-import io.anuke.ucore.ecs.extend.processors.TileCollisionProcessor;
-import io.anuke.ucore.modules.ModuleCore;
-import io.anuke.ucore.util.ColorCodes;
-import io.anuke.ucore.util.Strings;
+import io.anuke.koru.ucore.core.Effects;
+import io.anuke.koru.ucore.core.Timers;
+import io.anuke.koru.ucore.ecs.Basis;
+import io.anuke.koru.ucore.ecs.extend.processors.TileCollisionProcessor;
+import io.anuke.koru.ucore.modules.ModuleCore;
+import io.anuke.koru.ucore.util.ColorCodes;
+import io.anuke.koru.ucore.util.Strings;
 
 public class Koru extends ModuleCore{
 	public static Renderer renderer;

@@ -2,7 +2,7 @@ package io.anuke.koru.graphics;
 
 import com.badlogic.gdx.utils.Pools;
 
-import io.anuke.ucore.facet.Facet;
+import io.anuke.koru.ucore.facet.Facet;
 
 public class FacetPool{
 	

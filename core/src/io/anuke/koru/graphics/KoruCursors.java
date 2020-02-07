@@ -4,7 +4,7 @@ import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.*;
 import com.badlogic.gdx.utils.ObjectMap;
 
-import io.anuke.ucore.graphics.Pixmaps;
+import io.anuke.koru.ucore.graphics.Pixmaps;
 
 public class KoruCursors{
 	private static ObjectMap<String, Cursor> cursors = new ObjectMap<>();

@@ -6,7 +6,7 @@ import com.badlogic.gdx.utils.Json;
 import io.anuke.koru.items.impl.BlockRecipes;
 import io.anuke.koru.items.impl.Recipes;
 import io.anuke.koru.world.materials.Materials;
-import io.anuke.ucore.core.Core;
+import io.anuke.koru.ucore.core.Core;
 
 public class Resources{
 	private static Json json;

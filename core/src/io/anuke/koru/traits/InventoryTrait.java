@@ -11,8 +11,8 @@ import io.anuke.koru.items.ItemStack;
 import io.anuke.koru.network.Net;
 import io.anuke.koru.network.packets.InventoryUpdatePacket;
 import io.anuke.koru.network.packets.SlotChangePacket;
-import io.anuke.ucore.ecs.Spark;
-import io.anuke.ucore.ecs.Trait;
+import io.anuke.koru.ucore.ecs.Spark;
+import io.anuke.koru.ucore.ecs.Trait;
 
 //TODO fix
 public class InventoryTrait extends Trait{

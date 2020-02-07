@@ -1,7 +1,7 @@
 package io.anuke.koru.entities;
 
 import io.anuke.koru.entities.types.*;
-import io.anuke.ucore.ecs.Prototype;
+import io.anuke.koru.ucore.ecs.Prototype;
 
 public class Prototypes{
 	public static final Prototype

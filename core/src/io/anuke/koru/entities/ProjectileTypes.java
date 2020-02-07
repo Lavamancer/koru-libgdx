@@ -1,8 +1,8 @@
 package io.anuke.koru.entities;
 
-import io.anuke.ucore.core.Draw;
-import io.anuke.ucore.ecs.Spark;
-import io.anuke.ucore.ecs.extend.traits.ProjectileTrait.ProjectileType;
+import io.anuke.koru.ucore.core.Draw;
+import io.anuke.koru.ucore.ecs.Spark;
+import io.anuke.koru.ucore.ecs.extend.traits.ProjectileTrait.ProjectileType;
 
 public class ProjectileTypes{
 	public static final ProjectileType 

@@ -22,12 +22,12 @@ import io.anuke.koru.network.packets.*;
 import io.anuke.koru.traits.*;
 import io.anuke.koru.world.Tile;
 import io.anuke.koru.world.materials.Material;
-import io.anuke.ucore.core.Core;
-import io.anuke.ucore.core.Timers;
-import io.anuke.ucore.ecs.Spark;
-import io.anuke.ucore.modules.Module;
-import io.anuke.ucore.util.Angles;
-import io.anuke.ucore.util.Bits;
+import io.anuke.koru.ucore.core.Core;
+import io.anuke.koru.ucore.core.Timers;
+import io.anuke.koru.ucore.ecs.Spark;
+import io.anuke.koru.ucore.modules.Module;
+import io.anuke.koru.ucore.util.Angles;
+import io.anuke.koru.ucore.util.Bits;
 
 public class Network extends Module implements NetProvider{
 	public static final int port = 7575;

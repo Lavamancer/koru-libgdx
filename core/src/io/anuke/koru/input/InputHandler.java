@@ -17,8 +17,8 @@ import io.anuke.koru.world.materials.MaterialLayer;
 import io.anuke.koru.world.materials.MaterialTypes.Tree;
 import io.anuke.koru.world.materials.MaterialTypes.Wall;
 import io.anuke.koru.world.materials.Materials;
-import io.anuke.ucore.core.Effects;
-import io.anuke.ucore.ecs.Spark;
+import io.anuke.koru.ucore.core.Effects;
+import io.anuke.koru.ucore.ecs.Spark;
 
 //TODO make this less messy
 public class InputHandler{

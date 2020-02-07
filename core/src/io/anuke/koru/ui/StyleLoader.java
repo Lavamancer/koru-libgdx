@@ -9,9 +9,9 @@ import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.freetype.FreeTypeFontGenerator;
 import com.badlogic.gdx.graphics.g2d.freetype.FreeTypeFontGenerator.FreeTypeFontParameter;
 
-import io.anuke.ucore.core.Core;
-import io.anuke.ucore.graphics.Atlas;
-import io.anuke.ucore.scene.Skin;
+import io.anuke.koru.ucore.core.Core;
+import io.anuke.koru.ucore.graphics.Atlas;
+import io.anuke.koru.ucore.scene.Skin;
 
 public class StyleLoader{
 	

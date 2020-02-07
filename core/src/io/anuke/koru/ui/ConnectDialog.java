@@ -2,9 +2,9 @@ package io.anuke.koru.ui;
 
 import io.anuke.koru.Koru;
 import io.anuke.koru.traits.ConnectionTrait;
-import io.anuke.ucore.scene.builders.*;
-import io.anuke.ucore.scene.ui.Dialog;
-import io.anuke.ucore.scene.ui.TextDialog;
+import io.anuke.koru.ucore.scene.builders.*;
+import io.anuke.koru.ucore.scene.ui.Dialog;
+import io.anuke.koru.ucore.scene.ui.TextDialog;
 
 public class ConnectDialog extends Dialog{
 	TextDialog fail;

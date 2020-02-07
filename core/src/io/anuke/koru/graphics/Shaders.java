@@ -3,10 +3,10 @@ package io.anuke.koru.graphics;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Color;
 
-import io.anuke.ucore.core.Core;
-import io.anuke.ucore.core.Timers;
-import io.anuke.ucore.graphics.Shader;
-import io.anuke.ucore.util.Tmp;
+import io.anuke.koru.ucore.core.Core;
+import io.anuke.koru.ucore.core.Timers;
+import io.anuke.koru.ucore.graphics.Shader;
+import io.anuke.koru.ucore.util.Tmp;
 
 public class Shaders{
 	public static final Outline outline = new Outline();

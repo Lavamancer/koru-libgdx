@@ -16,17 +16,17 @@ import io.anuke.koru.modules.World;
 import io.anuke.koru.traits.InventoryTrait;
 import io.anuke.koru.world.BreakType;
 import io.anuke.koru.world.Tile;
-import io.anuke.ucore.core.Draw;
-import io.anuke.ucore.core.Timers;
-import io.anuke.ucore.ecs.Spark;
-import io.anuke.ucore.facet.BaseFacet;
-import io.anuke.ucore.facet.FacetList;
-import io.anuke.ucore.facet.Sorter;
-import io.anuke.ucore.function.Predicate;
-import io.anuke.ucore.graphics.Hue;
-import io.anuke.ucore.lsystem.LSystem;
-import io.anuke.ucore.util.Geometry;
-import io.anuke.ucore.util.Mathf;
+import io.anuke.koru.ucore.core.Draw;
+import io.anuke.koru.ucore.core.Timers;
+import io.anuke.koru.ucore.ecs.Spark;
+import io.anuke.koru.ucore.facet.BaseFacet;
+import io.anuke.koru.ucore.facet.FacetList;
+import io.anuke.koru.ucore.facet.Sorter;
+import io.anuke.koru.ucore.function.Predicate;
+import io.anuke.koru.ucore.graphics.Hue;
+import io.anuke.koru.ucore.lsystem.LSystem;
+import io.anuke.koru.ucore.util.Geometry;
+import io.anuke.koru.ucore.util.Mathf;
 
 public class MaterialTypes{
 	public static final Color grasscolor = new Color(0x62962fff);

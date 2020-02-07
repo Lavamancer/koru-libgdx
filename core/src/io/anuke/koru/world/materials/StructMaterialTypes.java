@@ -5,10 +5,10 @@ import com.badlogic.gdx.graphics.Color;
 import io.anuke.koru.*;
 import io.anuke.koru.graphics.KoruFacet;
 import io.anuke.koru.world.Tile;
-import io.anuke.ucore.core.*;
-import io.anuke.ucore.facet.FacetList;
-import io.anuke.ucore.facet.Sorter;
-import io.anuke.ucore.lights.*;
+import io.anuke.koru.ucore.core.*;
+import io.anuke.koru.ucore.facet.FacetList;
+import io.anuke.koru.ucore.facet.Sorter;
+import io.anuke.koru.ucore.lights.*;
 
 public class StructMaterialTypes{
 	

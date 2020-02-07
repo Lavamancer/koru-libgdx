@@ -4,7 +4,7 @@ import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Color;
 import com.bitfire.postprocessing.PostProcessor;
 
-import io.anuke.ucore.graphics.CustomSurface;
+import io.anuke.koru.ucore.graphics.CustomSurface;
 
 public class ProcessorSurface extends CustomSurface{
 	private LightEffect light;

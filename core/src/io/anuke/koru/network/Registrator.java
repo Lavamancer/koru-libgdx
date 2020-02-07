@@ -29,11 +29,11 @@ import io.anuke.koru.ui.Menu;
 import io.anuke.koru.world.Chunk;
 import io.anuke.koru.world.Tile;
 import io.anuke.koru.world.materials.Material;
-import io.anuke.ucore.ecs.Prototype;
-import io.anuke.ucore.ecs.Spark;
-import io.anuke.ucore.ecs.Trait;
-import io.anuke.ucore.ecs.extend.traits.LifetimeTrait;
-import io.anuke.ucore.ecs.extend.traits.PosTrait;
+import io.anuke.koru.ucore.ecs.Prototype;
+import io.anuke.koru.ucore.ecs.Spark;
+import io.anuke.koru.ucore.ecs.Trait;
+import io.anuke.koru.ucore.ecs.extend.traits.LifetimeTrait;
+import io.anuke.koru.ucore.ecs.extend.traits.PosTrait;
 
 public class Registrator{
 	private static ObjectSet<Class<? extends Trait>> synced = ObjectSet.with(

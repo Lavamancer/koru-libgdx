@@ -4,10 +4,10 @@ import com.badlogic.gdx.math.MathUtils;
 import com.badlogic.gdx.utils.Array;
 
 import io.anuke.koru.world.materials.MaterialTypes.Wall;
-import io.anuke.ucore.core.Core;
-import io.anuke.ucore.core.Draw;
-import io.anuke.ucore.core.Graphics;
-import io.anuke.ucore.facet.*;
+import io.anuke.koru.ucore.core.Core;
+import io.anuke.koru.ucore.core.Draw;
+import io.anuke.koru.ucore.core.Graphics;
+import io.anuke.koru.ucore.facet.*;
 
 public class KoruFacetLayers{
 	public static final float waterLayer = 2;

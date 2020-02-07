@@ -4,8 +4,8 @@ import com.badlogic.gdx.utils.ObjectMap;
 import com.esotericsoftware.kryonet.FrameworkMessage;
 
 import io.anuke.koru.Koru;
-import io.anuke.ucore.ecs.Spark;
-import io.anuke.ucore.function.Consumer;
+import io.anuke.koru.ucore.ecs.Spark;
+import io.anuke.koru.ucore.function.Consumer;
 
 //TODO implement everything
 public class Net{

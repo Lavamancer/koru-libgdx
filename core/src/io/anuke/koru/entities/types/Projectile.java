@@ -1,13 +1,13 @@
 package io.anuke.koru.entities.types;
 
 import io.anuke.koru.entities.Prototypes;
-import io.anuke.ucore.ecs.Prototype;
-import io.anuke.ucore.ecs.Spark;
-import io.anuke.ucore.ecs.TraitList;
-import io.anuke.ucore.ecs.extend.Events.CollisionFilter;
-import io.anuke.ucore.ecs.extend.Events.TileCollision;
-import io.anuke.ucore.ecs.extend.traits.*;
-import io.anuke.ucore.ecs.extend.traits.ProjectileTrait.ProjectileType;
+import io.anuke.koru.ucore.ecs.Prototype;
+import io.anuke.koru.ucore.ecs.Spark;
+import io.anuke.koru.ucore.ecs.TraitList;
+import io.anuke.koru.ucore.ecs.extend.Events.CollisionFilter;
+import io.anuke.koru.ucore.ecs.extend.Events.TileCollision;
+import io.anuke.koru.ucore.ecs.extend.traits.*;
+import io.anuke.koru.ucore.ecs.extend.traits.ProjectileTrait.ProjectileType;
 
 public class Projectile extends Prototype{
 	

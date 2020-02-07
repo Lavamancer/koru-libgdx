@@ -10,12 +10,12 @@ import com.badlogic.gdx.utils.Array;
 import com.badlogic.gdx.utils.Disposable;
 import com.badlogic.gdx.utils.ScreenUtils;
 
-import io.anuke.ucore.core.Draw;
-import io.anuke.ucore.core.Graphics;
-import io.anuke.ucore.core.Timers;
-import io.anuke.ucore.lsystem.LSystem;
-import io.anuke.ucore.lsystem.LSystemData;
-import io.anuke.ucore.util.Mathf;
+import io.anuke.koru.ucore.core.Draw;
+import io.anuke.koru.ucore.core.Graphics;
+import io.anuke.koru.ucore.core.Timers;
+import io.anuke.koru.ucore.lsystem.LSystem;
+import io.anuke.koru.ucore.lsystem.LSystemData;
+import io.anuke.koru.ucore.util.Mathf;
 
 public class KoruLSystem extends LSystem implements Disposable{
 	public static final int frames = 20;

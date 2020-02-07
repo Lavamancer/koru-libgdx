@@ -21,12 +21,12 @@ import io.anuke.koru.traits.InventoryTrait;
 import io.anuke.koru.world.Tile;
 import io.anuke.koru.world.materials.Material;
 import io.anuke.koru.world.materials.Materials;
-import io.anuke.ucore.UCore;
-import io.anuke.ucore.core.*;
-import io.anuke.ucore.ecs.Spark;
-import io.anuke.ucore.ecs.extend.traits.TileCollideTrait;
-import io.anuke.ucore.modules.Module;
-import io.anuke.ucore.util.Angles;
+import io.anuke.koru.ucore.UCore;
+import io.anuke.koru.ucore.core.*;
+import io.anuke.koru.ucore.ecs.Spark;
+import io.anuke.koru.ucore.ecs.extend.traits.TileCollideTrait;
+import io.anuke.koru.ucore.modules.Module;
+import io.anuke.koru.ucore.util.Angles;
 
 public class Control extends Module{
 	public final Spark player;

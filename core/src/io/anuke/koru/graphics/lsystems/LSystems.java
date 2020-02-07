@@ -8,11 +8,11 @@ import com.badlogic.gdx.utils.Array;
 import com.badlogic.gdx.utils.ObjectMap;
 
 import io.anuke.koru.graphics.Evaluators;
-import io.anuke.ucore.graphics.Hue;
-import io.anuke.ucore.lsystem.EvolutionData;
-import io.anuke.ucore.lsystem.Evolver;
-import io.anuke.ucore.lsystem.LSystemData;
-import io.anuke.ucore.util.Mathf;
+import io.anuke.koru.ucore.graphics.Hue;
+import io.anuke.koru.ucore.lsystem.EvolutionData;
+import io.anuke.koru.ucore.lsystem.Evolver;
+import io.anuke.koru.ucore.lsystem.LSystemData;
+import io.anuke.koru.ucore.util.Mathf;
 
 public class LSystems{
 	public static final int variants = 8;

@@ -3,8 +3,8 @@ package io.anuke.koru.traits;
 import io.anuke.koru.network.Net;
 import io.anuke.koru.network.SyncType;
 import io.anuke.koru.network.syncing.Interpolator;
-import io.anuke.ucore.ecs.Spark;
-import io.anuke.ucore.ecs.Trait;
+import io.anuke.koru.ucore.ecs.Spark;
+import io.anuke.koru.ucore.ecs.Trait;
 
 public class SyncTrait extends Trait{
 	public final SyncType type;

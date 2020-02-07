@@ -9,15 +9,15 @@ import io.anuke.koru.items.ItemType;
 import io.anuke.koru.modules.Control.GameState;
 import io.anuke.koru.traits.InventoryTrait;
 import io.anuke.koru.ui.*;
-import io.anuke.ucore.core.Inputs;
-import io.anuke.ucore.core.Timers;
-import io.anuke.ucore.function.VisibilityProvider;
-import io.anuke.ucore.modules.SceneModule;
-import io.anuke.ucore.scene.builders.*;
-import io.anuke.ucore.scene.ui.*;
-import io.anuke.ucore.scene.ui.layout.Stack;
-import io.anuke.ucore.scene.ui.layout.Value;
-import io.anuke.ucore.scene.utils.Cursors;
+import io.anuke.koru.ucore.core.Inputs;
+import io.anuke.koru.ucore.core.Timers;
+import io.anuke.koru.ucore.function.VisibilityProvider;
+import io.anuke.koru.ucore.modules.SceneModule;
+import io.anuke.koru.ucore.scene.builders.*;
+import io.anuke.koru.ucore.scene.ui.*;
+import io.anuke.koru.ucore.scene.ui.layout.Stack;
+import io.anuke.koru.ucore.scene.ui.layout.Value;
+import io.anuke.koru.ucore.scene.utils.Cursors;
 
 public class UI extends SceneModule{
 	private ObjectMap<Class<?>, Menu> menus = new ObjectMap<>();

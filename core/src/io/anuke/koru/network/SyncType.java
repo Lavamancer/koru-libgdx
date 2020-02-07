@@ -4,7 +4,7 @@ import io.anuke.koru.network.syncing.SyncData;
 import io.anuke.koru.traits.DirectionTrait;
 import io.anuke.koru.traits.InputTrait;
 import io.anuke.koru.traits.SyncTrait;
-import io.anuke.ucore.ecs.Spark;
+import io.anuke.koru.ucore.ecs.Spark;
 
 public enum SyncType{
 	position{

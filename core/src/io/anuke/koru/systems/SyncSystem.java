@@ -8,9 +8,9 @@ import io.anuke.koru.network.Net.Mode;
 import io.anuke.koru.network.packets.WorldUpdatePacket;
 import io.anuke.koru.traits.ConnectionTrait;
 import io.anuke.koru.traits.SyncTrait;
-import io.anuke.ucore.core.Timers;
-import io.anuke.ucore.ecs.Spark;
-import io.anuke.ucore.ecs.TraitProcessor;
+import io.anuke.koru.ucore.core.Timers;
+import io.anuke.koru.ucore.ecs.Spark;
+import io.anuke.koru.ucore.ecs.TraitProcessor;
 
 public class SyncSystem extends TraitProcessor{
 	static public float syncrange = 150;

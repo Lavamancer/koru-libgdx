@@ -13,9 +13,9 @@ import io.anuke.koru.modules.World;
 import io.anuke.koru.traits.InventoryTrait;
 import io.anuke.koru.world.BreakType;
 import io.anuke.koru.world.Tile;
-import io.anuke.ucore.ecs.Spark;
-import io.anuke.ucore.facet.FacetList;
-import io.anuke.ucore.util.Strings;
+import io.anuke.koru.ucore.ecs.Spark;
+import io.anuke.koru.ucore.facet.FacetList;
+import io.anuke.koru.ucore.util.Strings;
 				
 public abstract class Material{
 	private static ArrayList<Material> materials = new ArrayList<Material>();

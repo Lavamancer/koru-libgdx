@@ -12,11 +12,11 @@ import io.anuke.koru.network.Net;
 import io.anuke.koru.network.packets.InventoryClickPacket;
 import io.anuke.koru.traits.InventoryTrait;
 import io.anuke.koru.utils.Resources;
-import io.anuke.ucore.core.Draw;
-import io.anuke.ucore.graphics.Hue;
-import io.anuke.ucore.scene.Element;
-import io.anuke.ucore.scene.ui.layout.Table;
-import io.anuke.ucore.scene.utils.ClickListener;
+import io.anuke.koru.ucore.core.Draw;
+import io.anuke.koru.ucore.graphics.Hue;
+import io.anuke.koru.ucore.scene.Element;
+import io.anuke.koru.ucore.scene.ui.layout.Table;
+import io.anuke.koru.ucore.scene.utils.ClickListener;
 
 public class InventoryView extends Table{
 	public static final int slotsize = 64;

@@ -14,11 +14,11 @@ import io.anuke.koru.traits.InventoryTrait;
 import io.anuke.koru.utils.Resources;
 import io.anuke.koru.world.materials.Material;
 import io.anuke.koru.world.materials.MaterialLayer;
-import io.anuke.ucore.core.Draw;
-import io.anuke.ucore.function.StringSupplier;
-import io.anuke.ucore.scene.Element;
-import io.anuke.ucore.scene.ui.layout.Table;
-import io.anuke.ucore.scene.utils.ClickListener;
+import io.anuke.koru.ucore.core.Draw;
+import io.anuke.koru.ucore.function.StringSupplier;
+import io.anuke.koru.ucore.scene.Element;
+import io.anuke.koru.ucore.scene.ui.layout.Table;
+import io.anuke.koru.ucore.scene.utils.ClickListener;
 
 public class BlockView extends Table{
 	final int slotsize = 64;

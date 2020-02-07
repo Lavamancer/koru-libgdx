@@ -8,12 +8,12 @@ import io.anuke.koru.network.SyncType;
 import io.anuke.koru.traits.*;
 import io.anuke.koru.traits.DirectionTrait.Direction;
 import io.anuke.koru.utils.Resources;
-import io.anuke.ucore.core.Core;
-import io.anuke.ucore.core.Draw;
-import io.anuke.ucore.core.Timers;
-import io.anuke.ucore.ecs.Prototype;
-import io.anuke.ucore.ecs.TraitList;
-import io.anuke.ucore.ecs.extend.traits.*;
+import io.anuke.koru.ucore.core.Core;
+import io.anuke.koru.ucore.core.Draw;
+import io.anuke.koru.ucore.core.Timers;
+import io.anuke.koru.ucore.ecs.Prototype;
+import io.anuke.koru.ucore.ecs.TraitList;
+import io.anuke.koru.ucore.ecs.extend.traits.*;
 
 public class Player extends Prototype{
 	

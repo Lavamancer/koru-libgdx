@@ -1,6 +1,6 @@
 package io.anuke.koru.modules;
 
-import static io.anuke.ucore.util.Mathf.inBounds;
+import static io.anuke.koru.ucore.util.Mathf.inBounds;
 
 import java.util.Collection;
 
@@ -23,11 +23,11 @@ import io.anuke.koru.world.WorldLoader;
 import io.anuke.koru.world.materials.Material;
 import io.anuke.koru.world.materials.MaterialLayer;
 import io.anuke.koru.world.materials.MaterialTypes.Wall;
-import io.anuke.ucore.core.Core;
-import io.anuke.ucore.core.Timers;
-import io.anuke.ucore.ecs.Spark;
-import io.anuke.ucore.graphics.Hue;
-import io.anuke.ucore.modules.Module;
+import io.anuke.koru.ucore.core.Core;
+import io.anuke.koru.ucore.core.Timers;
+import io.anuke.koru.ucore.ecs.Spark;
+import io.anuke.koru.ucore.graphics.Hue;
+import io.anuke.koru.ucore.modules.Module;
 
 public class World extends Module{
 	public static final int chunksize = 16;

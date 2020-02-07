@@ -1,6 +1,6 @@
 package io.anuke.koru.entities;
 
-import io.anuke.ucore.ecs.SparkEvent;
+import io.anuke.koru.ucore.ecs.SparkEvent;
 
 public class KoruEvents{
 	
