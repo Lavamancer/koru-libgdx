@@ -1,6 +1,6 @@
 package io.anuke.koru.server;
 
-import static io.anuke.ucore.util.ColorCodes.*;
+import static io.anuke.koru.ucore.util.ColorCodes.*;
 
 import java.util.HashMap;
 import java.util.Scanner;
@@ -11,9 +11,9 @@ import com.badlogic.gdx.math.MathUtils;
 import io.anuke.koru.entities.Prototypes;
 import io.anuke.koru.network.Net;
 import io.anuke.koru.systems.EntityMapper;
-import io.anuke.ucore.core.Timers;
-import io.anuke.ucore.ecs.Processor;
-import io.anuke.ucore.ecs.Spark;
+import io.anuke.koru.ucore.core.Timers;
+import io.anuke.koru.ucore.ecs.Processor;
+import io.anuke.koru.ucore.ecs.Spark;
 
 
 public class CommandHandler{

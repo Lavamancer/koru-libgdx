@@ -31,10 +31,10 @@ import io.anuke.koru.systems.SyncSystem;
 import io.anuke.koru.traits.*;
 import io.anuke.koru.utils.Resources;
 import io.anuke.koru.world.Tile;
-import io.anuke.ucore.core.Effects;
-import io.anuke.ucore.ecs.Spark;
-import io.anuke.ucore.util.ColorCodes;
-import io.anuke.ucore.util.Mathf;
+import io.anuke.koru.ucore.core.Effects;
+import io.anuke.koru.ucore.ecs.Spark;
+import io.anuke.koru.ucore.util.ColorCodes;
+import io.anuke.koru.ucore.util.Mathf;
 
 public class KoruServer implements NetProvider{
 	//maps connection IDs to entity IDs

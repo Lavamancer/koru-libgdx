@@ -1,6 +1,6 @@
 package io.anuke.koru.server.world;
 
-import static io.anuke.ucore.util.Mathf.clamp;
+import static io.anuke.koru.ucore.util.Mathf.clamp;
 
 import com.badlogic.gdx.utils.Array;
 
@@ -8,9 +8,9 @@ import io.anuke.koru.world.Generator;
 import io.anuke.koru.world.Tile;
 import io.anuke.koru.world.materials.Material;
 import io.anuke.koru.world.materials.Materials;
-import io.anuke.ucore.noise.RidgedPerlin;
-import io.anuke.ucore.noise.Simplex;
-import io.anuke.ucore.util.Mathf;
+import io.anuke.koru.ucore.noise.RidgedPerlin;
+import io.anuke.koru.ucore.noise.Simplex;
+import io.anuke.koru.ucore.util.Mathf;
 
 public class EntryTerrainGenerator implements Generator{
 	Simplex tnoise = new Simplex();

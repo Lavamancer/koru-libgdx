@@ -1,13 +1,13 @@
 package io.anuke.koru.server.world;
 
-import static io.anuke.ucore.util.Mathf.clamp;
+import static io.anuke.koru.ucore.util.Mathf.clamp;
 
 import io.anuke.koru.world.Generator;
 import io.anuke.koru.world.Tile;
 import io.anuke.koru.world.materials.Materials;
-import io.anuke.ucore.noise.Noise;
-import io.anuke.ucore.noise.RidgedPerlin;
-import io.anuke.ucore.noise.VoronoiNoise;
+import io.anuke.koru.ucore.noise.Noise;
+import io.anuke.koru.ucore.noise.RidgedPerlin;
+import io.anuke.koru.ucore.noise.VoronoiNoise;
 
 public class SimpleTerrainGenerator implements Generator{
 	final float scale = 0.9f;

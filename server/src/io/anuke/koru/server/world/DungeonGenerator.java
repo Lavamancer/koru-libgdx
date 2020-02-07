@@ -9,9 +9,9 @@ import io.anuke.koru.world.StructureGenerator;
 import io.anuke.koru.world.materials.Material;
 import io.anuke.koru.world.materials.Materials;
 import io.anuke.koru.world.materials.StructMaterials;
-import io.anuke.ucore.util.Geometry;
-import io.anuke.ucore.util.GridMap;
-import io.anuke.ucore.util.Mathf;
+import io.anuke.koru.ucore.util.Geometry;
+import io.anuke.koru.ucore.util.GridMap;
+import io.anuke.koru.ucore.util.Mathf;
 
 public class DungeonGenerator extends StructureGenerator{
 	int roomSpacing = 13;

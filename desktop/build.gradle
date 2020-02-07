@@ -9,6 +9,7 @@ project.ext.assetsDir = new File("../core/assets");
 def PACKR_DIR = "$System.env.PACKR_DIR"
 
 task run(dependsOn: classes, type: JavaExec) {
+    jvmArgs "-XstartOnFirstThread"
     main = project.mainClassName
     classpath = sourceSets.main.runtimeClasspath
     standardInput = System.in

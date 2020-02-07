@@ -17,10 +17,10 @@ import io.anuke.koru.systems.EntityMapper;
 import io.anuke.koru.systems.SyncSystem;
 import io.anuke.koru.world.Chunk;
 import io.anuke.koru.world.Tile;
-import io.anuke.ucore.core.Timers;
-import io.anuke.ucore.ecs.Basis;
-import io.anuke.ucore.ecs.extend.processors.TileCollisionProcessor;
-import io.anuke.ucore.util.ColorCodes;
+import io.anuke.koru.ucore.core.Timers;
+import io.anuke.koru.ucore.ecs.Basis;
+import io.anuke.koru.ucore.ecs.extend.processors.TileCollisionProcessor;
+import io.anuke.koru.ucore.util.ColorCodes;
 
 public class KoruUpdater{
 	private static final int maxfps = 60;

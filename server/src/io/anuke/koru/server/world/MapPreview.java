@@ -16,12 +16,12 @@ import io.anuke.koru.world.Tile;
 import io.anuke.koru.world.materials.*;
 import io.anuke.koru.world.materials.MaterialTypes.Grass;
 import io.anuke.koru.world.materials.MaterialTypes.Wall;
-import io.anuke.ucore.core.Graphics;
-import io.anuke.ucore.graphics.Atlas;
-import io.anuke.ucore.noise.RidgedPerlin;
-import io.anuke.ucore.noise.VoronoiNoise;
-import io.anuke.ucore.util.GridMap;
-import io.anuke.ucore.util.Tmp;
+import io.anuke.koru.ucore.core.Graphics;
+import io.anuke.koru.ucore.graphics.Atlas;
+import io.anuke.koru.ucore.noise.RidgedPerlin;
+import io.anuke.koru.ucore.noise.VoronoiNoise;
+import io.anuke.koru.ucore.util.GridMap;
+import io.anuke.koru.ucore.util.Tmp;
 
 public class MapPreview extends ApplicationAdapter{
 	boolean isHome = System.getProperty("user.name").equals("anuke");

@@ -21,7 +21,7 @@ import io.anuke.koru.modules.World;
 import io.anuke.koru.network.Registrator;
 import io.anuke.koru.world.*;
 import io.anuke.koru.world.materials.Material;
-import io.anuke.ucore.util.ColorCodes;
+import io.anuke.koru.ucore.util.ColorCodes;
 
 //TODO do something about the chunk writers
 public class WorldFile extends WorldLoader{
