@@ -1,6 +1,7 @@
 [![Build Status](https://travis-ci.org/Anuken/Koru.svg?branch=master)](https://travis-ci.org/Anuken/Koru/)
 
-# Koru
+# Koru 
+## Forked from Anuken original project
 
 A 2D sandbox game, written using libGDX and Java 8. Partially made as a testing ground for Entity Component systems, AI, world generation, biome generation and shaders.
 
